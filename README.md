@@ -157,3 +157,7 @@ BilibiliHistoryFrontend/
 
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
 - 所有贡献者
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=2977094657/BiliHistoryFrontend&type=Date)](https://star-history.com/#2977094657/BiliHistoryFrontend&Date)
