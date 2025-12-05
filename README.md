@@ -6,6 +6,12 @@
 
 ## 该项目需要配合 [BilibiliHistoryFetcher](https://github.com/2977094657/BilibiliHistoryFetcher) 后端项目一起使用
 
+## 零基础快速运行（Windows 免安装版，推荐）
+
+1. 下载 exe：后端 https://github.com/2977094657/BilibiliHistoryFetcher/releases/latest
+2. 下载 exe：前端 https://github.com/2977094657/BiliHistoryFrontend/releases/latest
+3. 两个都双击运行即可
+
 ## 快速开始
 
 ### 使用 Docker 安装
