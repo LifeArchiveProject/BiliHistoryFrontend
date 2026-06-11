@@ -23,6 +23,8 @@ docker pull ghcr.io/lifearchiveproject/bili-history-frontend:latest
 docker run --name bili-history-frontend-web -p 5173:80 -d ghcr.io/lifearchiveproject/bili-history-frontend:latest
 ```
 
+前端镜像使用 `ghcr.io/lifearchiveproject/bili-history-frontend`。若拉取时提示 `denied` 或 `unauthorized`，请确认 GitHub Packages 中对应容器包已设为 Public。
+
 1. 安装[Docker](https://docs.docker.com/get-started/get-docker/).
 2. 构建镜像：`docker build -t bili-history-frontend-web:dev .`
 3. 启动容器：`docker run --name bili-history-frontend-web -p 5173:80 -d bili-history-frontend-web:dev`
