@@ -19,9 +19,11 @@
 #### 使用预构建镜像（GitHub Container Registry）
 
 ```bash
-docker pull ghcr.io/2977094657/bili-history-frontend:latest
-docker run --name bili-history-frontend-web -p 5173:80 -d ghcr.io/2977094657/bili-history-frontend:latest
+docker pull ghcr.io/lifearchiveproject/bili-history-frontend:latest
+docker run --name bili-history-frontend-web -p 5173:80 -d ghcr.io/lifearchiveproject/bili-history-frontend:latest
 ```
+
+仓库迁移到 `LifeArchiveProject` 后，前端镜像使用 `ghcr.io/lifearchiveproject/bili-history-frontend`。`ghcr.io/2977094657/...` 属于历史个人账号命名空间，不再作为推荐安装来源。若拉取时提示 `denied` 或 `unauthorized`，请确认 GitHub Packages 中对应容器包已设为 Public。
 
 1. 安装[Docker](https://docs.docker.com/get-started/get-docker/).
 2. 构建镜像：`docker build -t bili-history-frontend-web:dev .`
